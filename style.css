@@ -1,0 +1,50 @@
+:root{
+
+--Soft-red: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+--Dark-desaturated-cyan: hsl(167, 40%, 24%);
+--Dark-blue-photography-text: hsl(198, 62%, 26%);
+--Dark-moderate-cyan-footer: hsl(168, 34%, 41%);
+
+--Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+--Very-dark-grayish-blue: hsl(213, 9%, 39%);
+--Dark-grayish-blue: hsl(232, 10%, 55%);
+--Grayish-blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size:18px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    max-width:360px;
+}
+
+/* typography */
+
+h1,
+h2,
+h3{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.header-container{
+    background-image: url(./images/mobile/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:2em;
+    min-width:360px;
+}
