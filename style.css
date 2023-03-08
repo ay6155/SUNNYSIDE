@@ -84,63 +84,32 @@ header{
   padding:  1em;
 }
 
-
-
-/* hidding the checkbox */
-
-
-.menu-btn{
-    position: absolute;
-    top:-100%;
-    left:-100%;
-}
-
-/* showing the hamburger menu  */
-.menu-icon{
-    display: block;
-    
-}
-
-.menu-icon .navicon{
-    background-color: var(--White);
-    display: block;
-    position:relative;
-    width: 18px;
-    height: 2px;;
-}
-
-.navicon:before{
-    content:"";
-    width:18px;
-    height:2px;
-    background-color: var(--White);
-    position: absolute;
-    top:5px;
-}
-
-.navicon:after{
-    content:"";
-    width:18px;
-    height:2px;
-    background-color: var(--White);
-    position: absolute;
-    bottom:5px;
-}
-
 .desktoplist-menu{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s;
+    display: none;
 }
 
-.menu-btn ~ .desktoplist-menu{
-    max-height: 250px;
+.btn-menu{
+    border:none;
+    outline:none;
+    display: block;
+    margin-bottom:2px;
+    cursor:pointer;
+}
+
+.mobilelist-menu .item-material{
+    display: none;
+}
+
+.btn-menu:hover ~ .item-material{
+    display: block;
 }
 
 
-.desktoplist-menu{
-    /* visibility: hidden; */
-}
+
+
+
+
+
 
 
 
